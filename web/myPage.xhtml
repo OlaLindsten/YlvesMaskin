@@ -11,19 +11,14 @@
         <meta content='text/html; charset=UTF-8' http-equiv="Content-Type"/>
         <title>Maskinuthyrning</title>
     </h:head>
-    <script>
-        $(document).ready(function () {
-            document.getElementById('frm:#{focusInfo.componentId}').focus();
-        });
-    </script>
     <h:body>
-
 
         <ui:include src="WEB-INF/templates/header.xhtml"/>
 
 
         <h2>Lägg till maskin</h2>
         <h:form>
+
             <h:panelGrid columns="6">
 
                 <h:outputLabel value="Namn" for="name"/>
